@@ -1,0 +1,6 @@
+sync:
+  services:
+    test-backend-fargate-svc:
+      test-backend-fargate-svc-instance:
+        branch: main
+        spec: service-sync.yaml
